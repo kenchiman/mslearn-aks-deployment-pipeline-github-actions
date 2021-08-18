@@ -1,3 +1,4 @@
+# test
 name: Build and push the latest build to staging
 
 on:
