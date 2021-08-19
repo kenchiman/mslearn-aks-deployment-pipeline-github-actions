@@ -16,7 +16,7 @@ jobs:
           REF: ${{ github.ref }}
         run: echo "${REF##*/}"
         
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v
 
       - name: Set up Buildx
         uses: docker/setup-buildx-action@v1
